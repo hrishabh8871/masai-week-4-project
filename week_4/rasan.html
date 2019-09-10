@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Stock Keeper Details Software
+    </title>
+    <head>
+            <link rel="stylesheet" type="text/css" href="rasanstyle.css">
+            <link href="https://fonts.googleapis.com/css?family=Gayathri&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+            
+        
+        <div class="input">
+            
+            <select id="inputItem">
+                <option>rice</option>
+                <option>floor</option>
+                <option>pulse</option>
+                <option>sugar</option>
+                <option>rajma</option>
+            </select>
+            <input id="inputQuantity" type="text" placeholder="Enter Quantity" required><br>
+            <div class="flex">
+               
+                <button onclick="addStock()">Add Stock</button>
+                <button onclick="removeStock()">Remove Quantity</button>
+                <button onclick="showStock()">Balanced Stock</button>
+                <button onclick="createItem()">New Item In WareHouse</button>        
+            </div>
+
+        </div>
+         <p>
+            
+        </p>
+        
+
+        <script src="rasan.js"></script>
+    </body>
+</html>
